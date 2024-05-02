@@ -1,0 +1,10 @@
+create table UEPrefixMappingRule (
+imsi VARCHAR(16),
+dnnName VARCHAR(100),
+zoneVplmn VARCHAR(10),
+uePaaAddrType VARCHAR(10),
+mappedImsi VARCHAR(16),
+mappedMsisdn VARCHAR(30),
+mappedDnn VARCHAR(100),
+PRIMARY KEY (imsi, dnnName,zoneVplmn,uePaaAddrType)
+);
